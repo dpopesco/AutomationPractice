@@ -1,4 +1,4 @@
-package org.example;
+package automationpractice.com;
 
 public class Main {
     public static void main(String[] args) {
