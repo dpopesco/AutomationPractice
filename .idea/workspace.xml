@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e221ba9f-509f-4707-a710-20e66866adfd" name="Changes" comment="">
+    <list default="true" id="e221ba9f-509f-4707-a710-20e66866adfd" name="Changes" comment="Added Register and Login with same credentials and invalid email inputs from DataProvider tests">
+      <change afterPath="$PROJECT_DIR$/configuration/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/com/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice/com/baseclasses/TestBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice/com/baseclasses/TestBaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice/com/ui/signin/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice/com/ui/signin/Register.java" afterDir="false" />
     </list>
@@ -40,10 +41,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/diana/Automation/TestFramework"
+    "last_opened_file_path": "/home/diana/Automation/GettingStartedWithTestNG"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Register.withInvalidEmailAddressInputShowsError">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Register.withValidInputDataRegistersAndLogsInSuccessfully">
     <configuration name="Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -115,16 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automationpractice.com" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationpractice.com.*" />
+          <option name="PATTERN" value="automationpractice.com.baseclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationpractice.com" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PACKAGE_NAME" value="automationpractice.com.baseclasses" />
+      <option name="MAIN_CLASS_NAME" value="automationpractice.com.baseclasses.TestBaseClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Register.withInvalidEmailAddressInputShowsError" />
         <item itemvalue="TestNG.Register.withValidInputDataRegistersAndLogsInSuccessfully" />
+        <item itemvalue="TestNG.TestBaseClass" />
+        <item itemvalue="TestNG.Register.withInvalidEmailAddressInputShowsError" />
         <item itemvalue="TestNG.Register" />
         <item itemvalue="TestNG.Register.withValidInputDataRegistersSuccessfully" />
-        <item itemvalue="TestNG.automationpractice.com" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666868532405</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Register and Login with same credentials and invalid email inputs from DataProvider tests">
+      <created>1666892361901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666892361901</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +177,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Register and Login with same credentials and invalid email inputs from DataProvider tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Register and Login with same credentials and invalid email inputs from DataProvider tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutomationPractice$Register_withInvalidEmailAddressInputShowsError.ic" NAME="Register.withInvalidEmailAddressInputShowsError Coverage Results" MODIFIED="1666890040428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
