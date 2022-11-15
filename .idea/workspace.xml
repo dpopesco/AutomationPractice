@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e221ba9f-509f-4707-a710-20e66866adfd" name="Changes" comment="Added Register and Login with same credentials and invalid email inputs from DataProvider tests">
-      <change afterPath="$PROJECT_DIR$/configuration/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice/com/baseclasses/TestBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice/com/baseclasses/TestBaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice/com/ui/signin/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice/com/ui/signin/Register.java" afterDir="false" />
     </list>
@@ -16,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,26 +32,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2GiPerT3t0XgtEDCfl5okZFXs9t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/diana/Automation/GettingStartedWithTestNG"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Automation/AutomationPractice&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Register.withValidInputDataRegistersAndLogsInSuccessfully">
+  <component name="RunManager" selected="TestNG.Register">
     <configuration name="Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -140,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Register" />
         <item itemvalue="TestNG.Register.withValidInputDataRegistersAndLogsInSuccessfully" />
         <item itemvalue="TestNG.TestBaseClass" />
         <item itemvalue="TestNG.Register.withInvalidEmailAddressInputShowsError" />
-        <item itemvalue="TestNG.Register" />
         <item itemvalue="TestNG.Register.withValidInputDataRegistersSuccessfully" />
       </list>
     </recent_temporary>

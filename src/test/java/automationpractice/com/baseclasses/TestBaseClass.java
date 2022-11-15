@@ -83,7 +83,7 @@ public class TestBaseClass {
 
     //method which verifies that page is open by finding an element from homepage
     private void doBasicCheck() {
-        driver.findElement(By.id("header_logo"));
+        driver.findElement(By.id("header"));
     }
 
     //it will run regardless the results of tests (passed or failed)
